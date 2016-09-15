@@ -1,0 +1,130 @@
+body { 
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	background-color:#2A2C2B;
+	color: #D9CB9E;
+	text-shadow:  0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-shadow:  0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+a {
+	font-weight: 700;
+	-o-transition:.4s;
+	-ms-transition:.4s;
+	-moz-transition:.4s;
+	-webkit-transition:.4s;
+	transition:.4s;
+}
+
+.jumbotron {
+	background-color:#1E1E20;
+	text-align:center;
+}
+
+.jumbotron p {
+	font-size:14px;
+	text-shadow:  0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron a {
+	color: #D9CB9E;
+	text-decoration: none;
+}
+
+.jumbotron a:hover {
+	color: #FFFFFF;
+	text-shadow:  0 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.section-header {
+	text-align: center;
+	color: #D9CB9E;
+	padding-bottom:50px;
+}
+
+.project {
+	background-color: #374140;
+	color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.project a {
+	color:#D9CB9E;
+	text-decoration: none;	
+}
+
+.project a:hover {
+	color:white;
+	text-shadow:  0 1px 8px rgba(0, 0, 0, 1.0);
+}
+
+#documentaries {
+	background-color: #434F4E;
+}
+
+#pop-promo {
+	background-color: #4E5C5A;
+}
+
+#second-unit {
+	background-color: #5B6B69;
+}
+
+
+#full-list-link {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.btn.outline {
+	color:#D9CB9E;
+	background: none;
+	padding: 12px 22px;
+	border: 2px solid #D9CB9E;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	border-radius: 24px;
+	-o-transition:.4s;
+	-ms-transition:.4s;
+	-moz-transition:.4s;
+	-webkit-transition:.4s;
+	transition:.4s;
+}
+
+.btn.outline:hover {
+	text-shadow:  0 1px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:  0 1px 5px rgba(0, 0, 0, 0.5);
+	border: 2px solid #ffffff;
+	color:#ffffff;
+}
+
+.btn.outline:active {
+	text-shadow:  0 1px 5px rgba(0, 0, 0, 0);
+	box-shadow:  0 1px 5px rgba(0, 0, 0, 0);
+}
+
+.wrapper.fade-up > .inner {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+	-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+	-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+	transition: opacity 1s ease, transform 1s ease;
+	opacity: 1.0;
+}
+
+.wrapper.fade-up.inactive > .inner, body.is-loading .wrapper.fade-up > .inner {
+	opacity: 0;
+	-moz-transform: translateY(1em);
+	-webkit-transform: translateY(1em);
+	-ms-transform: translateY(1em);
+	transform: translateY(1em);
+}
